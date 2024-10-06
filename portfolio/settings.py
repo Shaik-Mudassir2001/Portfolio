@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
+    'portfolio-m2ltt4bqa-shaik-mudassir2001s-projects.vercel.app',
     'portfolio-seven-gray-24.vercel.app',
     'portfolio-git-main-shaik-mudassir2001s-projects.vercel.app',
     'portfolio-shaik-mudassir2001s-projects.vercel.app',

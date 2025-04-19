@@ -1,18 +1,17 @@
 {
   "version": 2,
   "builds": [
-    { "src": "portfolio/wsgi.py", "use": "@vercel/python" }
+    {
+      "src": "portfolio/wsgi.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
     {
       "src": "/(.*)",
       "dest": "portfolio/wsgi.py"
     }
-  ]
-}
-
-
-{
+  ],
   "rewrites": [
     {
       "source": "/Roadmap-for-SDE-Roles",

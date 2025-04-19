@@ -10,3 +10,19 @@
     }
   ]
 }
+
+{
+  "rewrites": [
+    {
+      "source": "/Roadmap-for-SDE-Roles",
+      "destination": "https://roadmap-deployment-xyz.vercel.app"
+    },
+    {
+      "source": "/Roadmap-for-SDE-Roles/(.*)",
+      "destination": "https://roadmap-deployment-xyz.vercel.app/$1"
+    }
+    // Add any other rules needed for your Django app below or above these,
+    // ensuring they don't conflict. Order can matter.
+  ]
+  // Other vercel settings for your Django app might be here too (like builds, etc.)
+}

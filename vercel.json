@@ -19,7 +19,7 @@
     },
     {
       "source": "/Roadmap-for-SDE-Roles/(.*)",
-      "destination": "https://roadmap-for-sde-roles-interview.vercel.app//$1"
+      "destination": "https://roadmap-for-sde-roles-interview.vercel.app/$1"
     }
   ]
 }

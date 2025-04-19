@@ -15,11 +15,11 @@
   "rewrites": [
     {
       "source": "/Roadmap-for-SDE-Roles",
-      "destination": "https://roadmap-deployment-xyz.vercel.app"
+      "destination": "https://roadmap-for-sde-roles-interview.vercel.app/"
     },
     {
       "source": "/Roadmap-for-SDE-Roles/(.*)",
-      "destination": "https://roadmap-deployment-xyz.vercel.app/$1"
+      "destination": "https://roadmap-for-sde-roles-interview.vercel.app//$1"
     }
   ]
 }

@@ -11,11 +11,12 @@
   ]
 }
 
+
 {
   "rewrites": [
     {
       "source": "/Roadmap-for-SDE-Roles",
-      "destination": "https://roadmap-for-sde-roles-interview.vercel.app/"
+      "destination": "https://roadmap-for-sde-roles-interview.vercel.app"
     },
     {
       "source": "/Roadmap-for-SDE-Roles/(.*)",
